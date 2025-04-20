@@ -1,0 +1,35 @@
+Your task is to build an MVP of “ESG Navigator” using provided sample ESG datasets. Follow these steps:
+
+1. **Data Ingestion & Cleaning**  
+   • Load sample datasets for Environmental, Social, and Governance metrics (CSV/JSON).  
+   • Impute missing values (domain‑specific mean or k‑NN).  
+   • Detect outliers and cap at 1st/99th percentiles (Winsorization).  
+   • Align reporting periods across all tables.
+
+2. **Normalization & Standardization**  
+   • Apply Z‑score standardization for roughly normal metrics (e.g., carbon intensity).  
+   • Use Min–Max scaling for bounded ratios (e.g., diversity %).  
+   • Use Robust scaling (median & IQR) for skewed metrics (e.g., fines).
+
+3. **Weight Assignment**  
+   • Define metric‑level weights within each domain (e.g., carbon intensity 0.3, renewables 0.2).  
+   • Define domain‑level weights (Environmental 0.4, Social 0.35, Governance 0.25).  
+
+4. **Score Calculation**  
+   • Compute each domain score as a weighted sum of its normalized metrics.  
+   • Compute overall ESG score as weighted sum of domain scores.
+
+5. **Uncertainty Quantification**  
+   • Use bootstrap resampling (≥1,000 iterations) to generate 95% confidence intervals for each domain and overall score.  
+   • Optionally, compute analytical standard errors for normally distributed metrics.
+
+6. **Anomaly & Significance Checks**  
+   • Flag metrics with |z| > 3 for manual review.  
+   • Perform t‑tests (or Mann–Whitney U) vs. industry benchmarks to highlight significant over/under‑performance.
+
+7. **Deliverables**  
+   • A Python prototype (Jupyter notebook or script) using pandas, NumPy/SciPy, and scikit‑learn.  
+   • Output tables showing each company’s domain scores, overall ESG score, and 95% CI.  
+   • A simple dashboard (e.g., Streamlit or Dash) that lets users filter by company and view scores + intervals + flags.
+
+**Use only the provided sample datasets** to demonstrate end‑to‑end functionality. Aim for clear, reproducible code and concise documentation so we can iterate quickly on this MVP.

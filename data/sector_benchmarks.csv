@@ -1,0 +1,86 @@
+sector,metric,domain,low_benchmark,average_benchmark,high_benchmark,unit,description
+Technology,carbon_intensity,environmental,60.0,75.0,90.0,tCO2e/$M revenue,Carbon emissions per million dollars of revenue
+Technology,renewable_energy_pct,environmental,30.0,48.0,65.0,%,Percentage of energy from renewable sources
+Technology,water_usage_intensity,environmental,6.5,8.2,9.8,m³/$M revenue,Water consumption per million dollars of revenue
+Technology,waste_recycling_rate,environmental,54.0,66.0,78.0,%,Percentage of waste that is recycled
+Technology,emissions_reduction_target,environmental,20.0,32.5,45.0,%,Target percentage reduction in emissions by 2030
+Technology,gender_diversity_pct,social,33.0,39.0,45.0,%,Percentage of workforce that identifies as female
+Technology,employee_satisfaction,social,3.7,4.2,4.6,score (1-5),Employee satisfaction score from surveys
+Technology,community_investment_pct,social,1.2,1.8,2.3,% of profit,Percentage of profits invested in community programs
+Technology,health_safety_incidents,social,2.0,3.0,4.0,incidents per 1000 employees,Health and safety incidents per 1000 employees
+Technology,training_hours_per_employee,social,40.0,45.0,50.0,hours,Average annual training hours per employee
+Technology,supply_chain_human_rights_score,social,73.0,79.0,85.0,score (0-100),Assessment of human rights practices in supply chain
+Technology,board_independence_pct,governance,70.0,75.5,80.0,%,Percentage of independent board members
+Technology,ethics_violations,governance,0.5,1.9,3.5,incidents,Number of reported ethics violations
+Technology,executive_compensation_ratio,governance,52.0,60.4,68.0,ratio,Ratio of CEO pay to median employee pay
+Technology,shareholder_rights_score,governance,80.0,85.3,89.0,score (0-100),Assessment of shareholder rights protections
+Technology,audit_committee_score,governance,3.8,4.3,4.7,score (1-5),Quality and independence of audit committee
+Technology,anti_corruption_policy_score,governance,78.0,82.9,87.0,score (0-100),Robustness of anti-corruption policies
+Energy,carbon_intensity,environmental,30.0,112.0,196.0,tCO2e/$M revenue,Carbon emissions per million dollars of revenue
+Energy,renewable_energy_pct,environmental,10.0,59.0,98.0,%,Percentage of energy from renewable sources
+Energy,water_usage_intensity,environmental,7.0,13.0,20.0,m³/$M revenue,Water consumption per million dollars of revenue
+Energy,waste_recycling_rate,environmental,38.0,63.0,86.0,%,Percentage of waste that is recycled
+Energy,emissions_reduction_target,environmental,10.0,49.0,85.0,%,Target percentage reduction in emissions by 2030
+Energy,gender_diversity_pct,social,22.0,32.5,40.0,%,Percentage of workforce that identifies as female
+Energy,employee_satisfaction,social,3.3,4.0,4.6,score (1-5),Employee satisfaction score from surveys
+Energy,community_investment_pct,social,1.0,2.2,3.0,% of profit,Percentage of profits invested in community programs
+Energy,health_safety_incidents,social,3.0,5.6,9.2,incidents per 1000 employees,Health and safety incidents per 1000 employees
+Energy,training_hours_per_employee,social,30.0,38.0,45.0,hours,Average annual training hours per employee
+Energy,supply_chain_human_rights_score,social,62.0,75.0,85.0,score (0-100),Assessment of human rights practices in supply chain
+Energy,board_independence_pct,governance,52.0,64.5,72.0,%,Percentage of independent board members
+Energy,ethics_violations,governance,1.5,3.4,5.5,incidents,Number of reported ethics violations
+Energy,executive_compensation_ratio,governance,68.0,80.6,102.0,ratio,Ratio of CEO pay to median employee pay
+Energy,shareholder_rights_score,governance,62.0,74.0,82.0,score (0-100),Assessment of shareholder rights protections
+Energy,audit_committee_score,governance,3.0,3.6,4.2,score (1-5),Quality and independence of audit committee
+Energy,anti_corruption_policy_score,governance,60.0,72.0,80.0,score (0-100),Robustness of anti-corruption policies
+Construction,carbon_intensity,environmental,98.0,132.0,155.0,tCO2e/$M revenue,Carbon emissions per million dollars of revenue
+Construction,renewable_energy_pct,environmental,22.0,36.0,55.0,%,Percentage of energy from renewable sources
+Construction,water_usage_intensity,environmental,11.0,14.0,16.0,m³/$M revenue,Water consumption per million dollars of revenue
+Construction,waste_recycling_rate,environmental,42.0,55.0,72.0,%,Percentage of waste that is recycled
+Construction,emissions_reduction_target,environmental,18.0,30.0,45.0,%,Target percentage reduction in emissions by 2030
+Construction,gender_diversity_pct,social,26.0,32.0,38.0,%,Percentage of workforce that identifies as female
+Construction,employee_satisfaction,social,3.6,3.9,4.2,score (1-5),Employee satisfaction score from surveys
+Construction,community_investment_pct,social,1.3,1.7,2.2,% of profit,Percentage of profits invested in community programs
+Construction,health_safety_incidents,social,4.8,6.6,8.3,incidents per 1000 employees,Health and safety incidents per 1000 employees
+Construction,training_hours_per_employee,social,33.0,38.5,44.0,hours,Average annual training hours per employee
+Construction,supply_chain_human_rights_score,social,66.0,72.0,78.0,score (0-100),Assessment of human rights practices in supply chain
+Construction,board_independence_pct,governance,60.0,65.3,70.0,%,Percentage of independent board members
+Construction,ethics_violations,governance,2.2,3.0,3.8,incidents,Number of reported ethics violations
+Construction,executive_compensation_ratio,governance,70.0,76.5,82.0,ratio,Ratio of CEO pay to median employee pay
+Construction,shareholder_rights_score,governance,70.0,75.2,80.0,score (0-100),Assessment of shareholder rights protections
+Construction,audit_committee_score,governance,3.4,3.7,4.0,score (1-5),Quality and independence of audit committee
+Construction,anti_corruption_policy_score,governance,68.0,73.0,77.0,score (0-100),Robustness of anti-corruption policies
+Healthcare,carbon_intensity,environmental,55.0,63.5,71.0,tCO2e/$M revenue,Carbon emissions per million dollars of revenue
+Healthcare,renewable_energy_pct,environmental,35.0,42.0,48.0,%,Percentage of energy from renewable sources
+Healthcare,water_usage_intensity,environmental,8.0,9.2,10.2,m³/$M revenue,Water consumption per million dollars of revenue
+Healthcare,waste_recycling_rate,environmental,70.0,76.5,82.0,%,Percentage of waste that is recycled
+Healthcare,emissions_reduction_target,environmental,30.0,36.0,42.0,%,Target percentage reduction in emissions by 2030
+Healthcare,gender_diversity_pct,social,45.0,48.5,52.0,%,Percentage of workforce that identifies as female
+Healthcare,employee_satisfaction,social,4.0,4.2,4.5,score (1-5),Employee satisfaction score from surveys
+Healthcare,community_investment_pct,social,2.4,2.7,3.2,% of profit,Percentage of profits invested in community programs
+Healthcare,health_safety_incidents,social,2.0,2.5,3.0,incidents per 1000 employees,Health and safety incidents per 1000 employees
+Healthcare,training_hours_per_employee,social,49.0,52.0,55.0,hours,Average annual training hours per employee
+Healthcare,supply_chain_human_rights_score,social,80.0,83.0,86.0,score (0-100),Assessment of human rights practices in supply chain
+Healthcare,board_independence_pct,governance,70.0,73.2,76.0,%,Percentage of independent board members
+Healthcare,ethics_violations,governance,1.8,2.3,2.8,incidents,Number of reported ethics violations
+Healthcare,executive_compensation_ratio,governance,76.0,81.0,85.0,ratio,Ratio of CEO pay to median employee pay
+Healthcare,shareholder_rights_score,governance,78.0,81.0,83.0,score (0-100),Assessment of shareholder rights protections
+Healthcare,audit_committee_score,governance,3.9,4.1,4.3,score (1-5),Quality and independence of audit committee
+Healthcare,anti_corruption_policy_score,governance,76.0,79.0,81.0,score (0-100),Robustness of anti-corruption policies
+Materials,carbon_intensity,environmental,95.0,165.5,210.0,tCO2e/$M revenue,Carbon emissions per million dollars of revenue
+Materials,renewable_energy_pct,environmental,15.0,26.5,50.0,%,Percentage of energy from renewable sources
+Materials,water_usage_intensity,environmental,12.0,19.2,25.0,m³/$M revenue,Water consumption per million dollars of revenue
+Materials,waste_recycling_rate,environmental,35.0,48.0,75.0,%,Percentage of waste that is recycled
+Materials,emissions_reduction_target,environmental,15.0,25.5,45.0,%,Target percentage reduction in emissions by 2030
+Materials,gender_diversity_pct,social,25.0,31.0,38.0,%,Percentage of workforce that identifies as female
+Materials,employee_satisfaction,social,3.5,3.8,4.2,score (1-5),Employee satisfaction score from surveys
+Materials,community_investment_pct,social,1.2,1.6,2.3,% of profit,Percentage of profits invested in community programs
+Materials,health_safety_incidents,social,5.0,7.5,9.5,incidents per 1000 employees,Health and safety incidents per 1000 employees
+Materials,training_hours_per_employee,social,30.0,35.5,43.0,hours,Average annual training hours per employee
+Materials,supply_chain_human_rights_score,social,64.0,70.0,77.0,score (0-100),Assessment of human rights practices in supply chain
+Materials,board_independence_pct,governance,58.0,62.5,67.0,%,Percentage of independent board members
+Materials,ethics_violations,governance,2.8,3.5,4.2,incidents,Number of reported ethics violations
+Materials,executive_compensation_ratio,governance,76.0,83.3,88.0,ratio,Ratio of CEO pay to median employee pay
+Materials,shareholder_rights_score,governance,67.0,71.5,76.0,score (0-100),Assessment of shareholder rights protections
+Materials,audit_committee_score,governance,3.2,3.5,3.8,score (1-5),Quality and independence of audit committee
+Materials,anti_corruption_policy_score,governance,65.0,69.0,74.0,score (0-100),Robustness of anti-corruption policies

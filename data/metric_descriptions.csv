@@ -1,0 +1,18 @@
+domain,metric,direction,importance,unit,description
+environmental,carbon_intensity,lower_is_better,high,tCO2e/$M revenue,Carbon emissions per million dollars of revenue. Lower values indicate better carbon efficiency.
+environmental,renewable_energy_pct,higher_is_better,high,%,Percentage of energy consumed from renewable sources. Higher values indicate better environmental performance.
+environmental,water_usage_intensity,lower_is_better,medium,m³/$M revenue,Water consumption per million dollars of revenue. Lower values indicate better water efficiency.
+environmental,waste_recycling_rate,higher_is_better,medium,%,Percentage of waste that is recycled or repurposed. Higher values indicate better waste management.
+environmental,emissions_reduction_target,higher_is_better,high,%,Target percentage reduction in emissions by 2030. Higher values indicate stronger commitment to emissions reduction.
+social,gender_diversity_pct,higher_is_better,high,%,Percentage of workforce that identifies as female. Higher values indicate better gender diversity.
+social,employee_satisfaction,higher_is_better,medium,score (1-5),Employee satisfaction score from surveys. Higher values indicate better employee experience.
+social,community_investment_pct,higher_is_better,medium,% of profit,Percentage of profits invested in community programs. Higher values indicate stronger community engagement.
+social,health_safety_incidents,lower_is_better,high,incidents per 1000 employees,Health and safety incidents per 1000 employees. Lower values indicate better workplace safety.
+social,training_hours_per_employee,higher_is_better,medium,hours,Average annual training hours per employee. Higher values indicate better employee development.
+social,supply_chain_human_rights_score,higher_is_better,high,score (0-100),Assessment of human rights practices in supply chain. Higher values indicate better supply chain oversight.
+governance,board_independence_pct,higher_is_better,high,%,Percentage of independent board members. Higher values indicate better board independence.
+governance,ethics_violations,lower_is_better,high,incidents,Number of reported ethics violations. Lower values indicate better ethical practices.
+governance,executive_compensation_ratio,lower_is_better,medium,ratio,Ratio of CEO pay to median employee pay. Lower values indicate more balanced compensation.
+governance,shareholder_rights_score,higher_is_better,high,score (0-100),Assessment of shareholder rights protections. Higher values indicate better shareholder treatment.
+governance,audit_committee_score,higher_is_better,medium,score (1-5),Quality and independence of audit committee. Higher values indicate better financial oversight.
+governance,anti_corruption_policy_score,higher_is_better,high,score (0-100),Robustness of anti-corruption policies. Higher values indicate better anti-corruption frameworks.
